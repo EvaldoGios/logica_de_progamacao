@@ -7,9 +7,11 @@ programa {
     leia(numero)
 
     se(numero % 2 == 0) {
-      escreva("Número par")
+      numero = numero + 5
+      escreva(numero)
     } senao {
-      escreva("Número ímpar")
+      numero = numero + 8
+      escreva(numero)
     }
   }
 }
