@@ -7,13 +7,13 @@ programa
         escreva("Informe a senha: ")
         leia(senha)
 
-        se (senha != 1234)
+        se (senha == 1234)
         {
-            escreva("Acesso Negado")
+            escreva("Acesso Liberado")
         }
         senao
         {
-            escreva("Acesso Liberado")
+            escreva("Acesso Negado")
         }
 
 
